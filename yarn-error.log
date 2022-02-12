@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add next-seo@0.0.7
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Ruby26-x64\bin;C:\Users\Javohir Hakimov\AppData\Local\Microsoft\WindowsApps;;C:\Users\Javohir Hakimov\AppData\Local\Yarn\bin;C:\Users\Javohir Hakimov\AppData\Roaming\npm
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Technology\Web\mynext-app\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "mynext-app",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@chakra-ui/core": "^0.8.0",
+      "@emotion/core": "^10.3.1",
+      "@emotion/styled": "^10.3.0",
+      "emotion-theming": "^10.3.0",
+      "firebase": "^4.8.0",
+      "next": "12.0.8",
+      "nookies": "^2.5.2",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "sass": "^1.49.0"
+    },
+    "devDependencies": {
+      "eslint": "8.7.0",
+      "eslint-config-next": "12.0.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
