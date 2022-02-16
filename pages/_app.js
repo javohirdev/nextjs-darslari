@@ -20,12 +20,14 @@ function MyApp({ Component, pageProps }) {
 //         `}
 //       </Script>
     
-      <NextSeo
-        title='This is Next JS tutorial'
-        titleTemplate='Javohir Hakimov'
-        description='This is just test!!!'
-      />
-      <Component {...pageProps} />
+//       <NextSeo
+//         title='This is Next JS tutorial'
+//         titleTemplate='Javohir Hakimov'
+//         description='This is just test!!!'
+//       />
+      <Provider session={pageProps.session}>
+        <Component {...pageProps} />
+      </Provider>
     </>
   )
 }
