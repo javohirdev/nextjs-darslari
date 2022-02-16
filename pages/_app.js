@@ -1,6 +1,7 @@
 import '/styles/globals.css'
 // import Script from 'next/script';
-import { NextSeo } from 'next-seo';
+// import { NextSeo } from 'next-seo';
+import { Provider } from "next-auth/client"
 
 function MyApp({ Component, pageProps }) {
   return (
